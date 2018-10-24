@@ -1,0 +1,111 @@
+ash: cd: secret: No such file or directory
+root@Miracle:~# nc 2018shell3.picoctf.com 33158
+Sweet! We have gotten access into the system but we aren't root.
+It's some sort of restricted shell! I can't see what you are typing
+but I can see your output. I'll be here to help you along.
+If you need help, type "echo 'Help Me!'" and I'll see what I can do
+There is not much time left!
+~/$ cd secret
+Now we are cookin'! Take a look around there and tell me what you find!
+~/secret$ ls
+intel_1
+intel_2
+intel_3
+intel_4
+intel_5
+profile_ahqueith5aekongieP4ahzugi
+profile_ahShaighaxahMooshuP1johgo
+profile_aik4hah9ilie9foru0Phoaph0
+profile_AipieG5Ua9aewei5ieSoh7aph
+profile_bah9Ech9oa4xaicohphahfaiG
+profile_ie7sheiP7su2At2ahw6iRikoe
+profile_of0Nee4laith8odaeLachoonu
+profile_poh9eij4Choophaweiwev6eev
+profile_poo3ipohGohThi9Cohverai7e
+profile_Xei2uu5suwangohceedaifohs
+Sabatoge them! Get rid of all their intel files!
+~/secret$ rm intel_*
+Nice! Once they are all gone, I think I can drop you a file of an exploit!
+Just type "echo 'Drop it in!' " and we can give it a whirl!
+~/secret$ echo 'Drop it in!'
+Drop it in!
+I placed a file in the executables folder as it looks like the only place we can execute from!
+Run the script I wrote to have a little more impact on the system!
+~/secret$ cd ..
+~/$ cd executables
+~/executables$ ls
+dontLookHere
+~/executables$ ./dontLookHere
+ 5f61 f131 969f 9d5a ba07 57a7 66f5 4269 3f8a 3999 4aab 50e6 d799 2fac 21a5 c6e2 eaa3 2b63 4e99 8fa5 a737 6027 449e bde8 d093
+ 84fb fb09 5893 1171 6ec4 d08b 24ad 0013 5ddc b74d 04f7 ad81 01ed cd61 a1d0 cec3 3cdc 445c a543 37a7 5448 3311 ec2c 6011 7bcd
+ 74ce e7d3 2e3f 9adb d0b6 55aa 9deb b6e3 0655 c614 3247 f767 049a b5d3 ac62 52a6 6ed9 3acd 3001 6c68 1178 cce9 144f 6277 4d0e
+ f13a 93ae 04d6 4785 a109 e2c0 4df3 45aa 334a 0cb2 cd58 de1a b66f 3b3e 5b33 e998 e463 da42 6db6 8d7e 18a3 a12d 4f21 828a e0f8
+ 261d f785 4769 f6a1 2509 4fa1 0480 46bd feed 78aa d5b2 e9e0 397c dfb0 665b 9115 ea94 e7de 2fb3 b2af 0a92 0fab 3097 561c 1ae8
+ a195 6d35 9f40 51f4 588f 5f4e 7731 920b ccd6 898d c5b5 c9f0 53d1 3628 20f4 0c76 9c5e c8fa 1e25 3f43 6eb6 fa93 9d60 3a31 941e
+ 4cf9 81b0 ab41 01db ca7f 98bf 2ee1 f98a 104b d5fb 7328 c7a7 32d3 26b4 cc9f d489 f33b 0511 6499 b2cd bb6d 5fb1 6144 4818 d71c
+ 97ea 2faa a4d2 82f4 ddd8 a40e 88db 2cd7 1da6 7f9d 03b8 7a12 904e edf2 bfc4 650a b70a 5088 639b f1a9 c5e2 eacb 6627 ec0e db8e
+ 7291 cd15 d039 49fc ca67 ea44 34e1 c04d 7a0a b91c 1ed6 beec 1317 de18 c6e5 9ba0 ed9d 7c41 9a6f 92e8 0afa 6d49 e2cc ce9e 433c
+ 6c43 ac83 0c57 15df b34b 02d9 b08c 3520 dda8 3898 c455 5ece d19b e9d6 a743 3016 9cc1 e136 fa8e a966 4bf6 6aee b3d3 a1e5 927e
+ f0c2 b965 3a29 81e4 c37a 51be 34eb 1d66 07f5 f34b e236 0230 efbc 7d34 677e e588 05f0 5cf8 3616 426e 4725 531f 95be 3c3a 5ad1
+ 8f5c 3673 f487 0d31 0ca0 bd1b 6231 a151 74b3 6e61 531d 27bf 52a2 d571 9ed5 9b4c 998b 7e8f f5d5 c582 861e 0255 cdc7 de3b e114
+ 86b8 ccea 6fcf 2523 3018 14bd f8e6 18b3 b6ee 732e 0f76 9685 eaa4 b4eb ced5 5fe7 e921 1c6f 1c83 7bea 5851 1908 8050 b40c f9aa
+ f121 9f7d 5f84 e587 0baf 0d77 e875 73cf a307 752a f1b2 6709 407d 836a b984 16c6 9400 c53a 5e9c 4282 8717 771f b1a6 90d6 c436
+ f2ef 76c2 8aea bcdb 5b4b 9127 63fc 6521 17e9 e60d 1ada a5d1 1c7c e684 d561 e0f8 f731 19fe 6b2d 9b33 226e dcf4 e8e5 31cf 73c0
+ 7946 f100 2936 d0e1 985d d28d 9244 1ea9 2c96 89bd fbf8 9e00 4447 248d 9a7a b5c3 7d3d a0a7 fb11 ea37 0772 1954 ffca 807b 0cff
+ 1b69 9fff 0321 8fb0 a7af 28e4 b79a 95d6 6439 f1f8 e50a 04bc 8df9 b01b 5017 2c19 5c47 cd67 2e9f 4732 caa8 2100 ade3 c584 000e
+ 1f5e 7741 4547 15d7 eea8 1aad 77fe a142 310b 103c add7 1f7a 5447 7026 b6dc db72 7421 c0c6 3445 9765 09ad 3e1b e564 f18f 5116
+ 30be 48af 8718 4732 ccc4 5d23 065a 5b46 1dea 61c6 a0bc c0b0 ca57 803d e00f d562 7945 d9f6 ded5 9fb2 b356 6eed 5084 8483 1865
+ dce8 4b4e 70fa 63a4 2bba 48e5 90ea 3c13 7316 ef66 7048 94db 42f8 d126 e11c 02ce f754 7607 5c1c 6448 5ad6 b19e 3f2c 90f7 f2a7
+ 7f96 97be 3c3e 7dc5 df69 3761 054f 2bd7 2b2b 5658 6e3b 1e53 0dab 8b47 5638 f9f8 acef 43ee 711d 533b a3f7 1f5b 8813 fad4 84b7
+ 5bb9 7381 3c31 054b 8e46 7eb9 9660 ba02 28b6 6d05 e19b 97b2 df74 01f8 9e77 3698 fb57 76ca e442 a529 a058 15de 6ca4 c1a4 6008
+ dead b8dc 07d1 a6c8 f246 6b8d 8ef1 641f 413a 568f 9a9a dee1 def6 d7bb d72d 2e9b 17e6 8e3f 397c 4068 e352 1e1d a5db 301a e72b
+ 5db5 e982 065e bd06 5ded 5557 83b4 c8aa 829c 4418 878c 7914 db74 9526 9d41 c7f2 1c29 c3ce f7df 29ed 5909 e65b e67b e3a1 baf1
+ 1370 5e8a 2fff f3ce 0a3d 1246 25c1 6ece 739e 1c9f 9145 f355 b9c7 ae41 94d7 ccf9 91f4 8db7 05e3 b119 ca3e 9496 2a24 4eea 3766
+ 83f5 a784 9076 f766 5a32 46c0 f00d b63b 1081 1032 b3d9 abee c68e 1688 4fe6 b3a9 c95d bd2a 1ede cfc0 79db 0fdb 3b48 9adf 971c
+ 4fae 5344 d7c2 0c7a 1362 53a7 76a2 c3fc 96e2 de48 e83b 9285 eb4f 369c ccff 15ea b8a8 932d df39 49b2 1dfb 3a89 6f89 3171 ac5b
+ e301 b88d be58 fb9c 0ae1 319e 5564 1b4f 4608 2247 fee1 1674 8fbb c4ca afd2 559e e9a7 8f9c efc4 9427 a84e 9fc3 8644 8623 1cfc
+ f206 c7ce 91b4 826b cf84 bc01 c3ad 1b5d 0370 87e3 89f3 4da0 ad48 85f2 aa34 2dd4 4e37 00e8 41fa 7b14 0587 fdb6 66e1 e9a4 2be0
+ fe41 6b2f d204 aa6d e984 5516 9f01 00dd 0104 1156 59a0 504e 2e96 de8d 5612 3ec0 ad7c b4d8 67e8 c085 aa9b 0d69 4991 0d20 f358
+ 9788 8137 2086 7d3e db3b e353 aeff 0015 e2b2 2a26 1386 3907 f57b ba36 4a04 ffad 2960 a7a3 1451 17c3 2783 e3dd 4afc c992 fb22
+ 7461 1200 695b e194 76b6 06c2 cae5 a1f7 51fc 2054 0f35 d1c4 2787 a02b 6fa0 0009 0579 5eac 2b27 67a2 3f05 b3a7 4b72 15f8 a462
+ df89 1ede d549 bb65 cdc5 d2e0 45ff 7649 9947 76ec 76b8 c635 11e1 3ab6 2fe2 8610 6c9e 80b6 5367 5f24 3421 d845 a479 a091 663c
+ ed60 ba92 dbd0 afce 61bb d96b ce71 9503 b0a3 62c6 b7db f187 21a9 25cd 93dc b059 08a0 f52e 67df f72e 4dc3 8bc4 900f 62f8 f84e
+ 97f5 8986 da31 2a52 350c f4d7 e8cf 7151 b1f5 3918 52e5 52f9 6703 c843 b9f7 1844 36c7 db71 3af1 c7e1 69c2 e13c e322 f727 6b21
+ b5ea ac53 6ec8 38a6 7cb6 7830 0e12 0fd2 2547 3bda 4fce dae3 17c2 77d0 c8e8 d8d8 1eaa c47c 1c6a b5ba 964e ffef d4d0 47e9 20d7
+Looking through the text above, I think I have found the password. I am just having trouble with a username.
+Oh drats! They are onto us! We could get kicked out soon!
+Quick! Print the username to the screen so we can close are backdoor and log into the account directly!
+You have to find another way other than echo!
+~/executables$ whoami
+l33th4x0r
+Perfect! One second!
+Okay, I think I have got what we are looking for. I just need to to copy the file to a place we can read.
+Try copying the file called TopSecret in tmp directory into the passwords folder.
+~/executables$ cd ..
+~/$ cp /tem/TopSecret /passwords
+~/$ ls
+blackmail
+executables
+passwords
+photos
+secret
+~/$ cd passwords
+~/passwords$ ls
+~/passwords$ cd ..
+~/$ cp /tmp/TopSecret passwords
+Server shutdown in 10 seconds...
+Quick! go read the file before we lose our connection!
+~/$ ls
+blackmail
+executables
+passwords
+photos
+secret
+~/$ cd passwords
+~/passwords$ ls
+TopSecret
+~/passwords$ cat TopSecret
+Major General John M. Schofield's graduation address to the graduating class of 1879 at West Point is as follows: The discipline which makes the soldiers of a free country reliable in battle is not to be gained by harsh or tyrannical treatment.On the contrary, such treatment is far more likely to destroy than to make an army.It is possible to impart instruction and give commands in such a manner and such a tone of voice as to inspire in the soldier no feeling butan intense desire to obey, while the opposite manner and tone of voice cannot fail to excite strong resentment and a desire to disobey.The one mode or other of dealing with subordinates springs from a corresponding spirit in the breast of the commander.He who feels the respect which is due to others, cannot fail to inspire in them respect for himself, while he who feels,and hence manifests disrespect towards others, especially his subordinates, cannot fail to inspire hatred against himself.
+picoCTF{CrUsHeD_It_9edaa84a}
+root@Miracle:~# 
+
