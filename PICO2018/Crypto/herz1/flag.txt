@@ -1,0 +1,12 @@
+Let's decode this now!
+Hri megyv obldw tlp jecfs luib hri nkzq alx.
+G ykw'h oingiui hrgs gs seyr kw iksq fblonic gw Fgyl.
+Gh's knclsh ks gt G slnuia k fblonic knbikaq! Lvkq, tgwi.
+Ribi's hri tnkx: fgylYHT{seoshghehglw_ygfribs_kbi_hll_iksq_usybsealxd}
+
+The quick brown fox jumps over the lazy dog.
+ I can't believe this is such an easy problem in Pico. 
+It's almost as if I solved a problem already! Okay
+, fine. Here's the flag:
+ picoCTF{substitution_ciphers_are_too_easy_vscrsudogw}
+

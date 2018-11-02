@@ -1,0 +1,8 @@
+http://2018shell3.picoctf.com:29568/74efc.html
+
+
+
+you can find flag there..
+just search for robots.txt page.. 
+it will lead you /74efc.html
+simple
