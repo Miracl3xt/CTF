@@ -1,6 +1,6 @@
 # Buffer Overflow 0
 
-## PROBLEM_
+## Challenge
 
 >Let's start off simple, can you overflow the right buffer in this [program](./vuln) to get the flag? You can also find it in /problems/buffer-overflow-0_0_6461b382721ccca2318b1d981d363924 on the shell server. [Source](./vuln.c).
 
@@ -17,6 +17,6 @@ If you try to do the math by hand, maybe try and add a few more characters. Some
 ```
 ./vuln aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
+And this will give the flag as follows
 
-
-`FLAG - picoCTF{ov3rfl0ws_ar3nt_that_bad_a54b012c}`
+>`FLAG - picoCTF{ov3rfl0ws_ar3nt_that_bad_a54b012c}`
