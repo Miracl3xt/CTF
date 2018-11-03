@@ -16,4 +16,4 @@ If you try to do the math by hand, maybe try and add a few more characters. Some
 ##Solution
 `./vuln aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`
 
-`FLAG - `picoCTF{ov3rfl0ws_ar3nt_that_bad_a54b012c}`
+`FLAG - picoCTF{ov3rfl0ws_ar3nt_that_bad_a54b012c}`
