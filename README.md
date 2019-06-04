@@ -1,2 +1,2 @@
 # CTF
-Currently Playing PICO2018
+Some Interesting PICO2018 challenges repo
